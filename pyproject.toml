@@ -1,27 +1,19 @@
-[tool.poetry]
+[project]
 name = "ml-time-series-forecasting-course-solutions"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
-authors = ["j-adamczyk <jakub.adamczyk@placewise.com>"]
+authors = [{ name = "j-adamczyk", email = "jadamczy@agh.edu.pl" }]
 readme = "README.md"
-package-mode = false
+requires-python = ">=3.11,<3.13"
 
-[tool.poetry.dependencies]
-python = ">=3.10,<3.11"
-
-jupyter = "*"
-holidays = "0.*"
-matplotlib = "3.*"
-neuralforecast = "1.*"
-pandas = "2.*"
-pmdarima = "2.*"
-pyarrow = "18.*"
-python-dateutil = "2.*"
-scikit-learn = "1.5.*"
-seaborn = "0.13.*"
-sktime = "0.34.*"
-statsforecast = "1.*"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+dependencies = [
+    "jupyter",
+    "matplotlib",
+    "neuralforecast",
+    "pmdarima",
+    "pyarrow",
+    "scikit-learn",
+    "seaborn",
+    "sktime",
+    "statsforecast",
+]
