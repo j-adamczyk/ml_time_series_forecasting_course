@@ -1,6 +1,6 @@
 [project]
 name = "ml-time-series-forecasting-course-solutions"
-version = "1.0.0"
+version = "0.1.0"
 description = ""
 authors = [{ name = "j-adamczyk", email = "jadamczy@agh.edu.pl" }]
 readme = "README.md"
